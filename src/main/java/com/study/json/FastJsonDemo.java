@@ -1,4 +1,4 @@
-package com.study.jsonTest;
+package com.study.json;
 
 
 import com.google.gson.Gson;
@@ -10,15 +10,7 @@ public class FastJsonDemo {
 	
 	
 	public void Test(){
-		String json= "{\"pids\":[\"1\",\"2\",\"3\"]}";
-		System.out.println(new JsonParser().parse(json).getAsJsonObject().getAsJsonArray("pids"));
-		
-		String str = "{\"a\":\"b\", \"c\":\"d\"}";  
-		JsonObject jsonObject = new Gson().fromJson(str);
-	        System.out.println(jsonObject); // {"c":"d","a":"b"}  
-	        System.out.println(jsonObject.get("c")); // d  
-		
-
+	
 	}
 	
 	

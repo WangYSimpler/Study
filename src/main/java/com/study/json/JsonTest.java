@@ -3,7 +3,7 @@
  * @author WangY
  * @Date  2017年3月15日
  */
-package com.study.jsonTest;
+package com.study.json;
 
 import java.util.ArrayList;
 import java.util.List;
