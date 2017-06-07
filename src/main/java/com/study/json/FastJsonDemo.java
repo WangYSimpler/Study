@@ -1,6 +1,7 @@
 package com.study.json;
 
 
+import com.alibaba.fastjson.JSONArray;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
@@ -10,7 +11,7 @@ public class FastJsonDemo {
 	
 	
 	public void Test(){
-	
+	//JSONArray
 	}
 	
 	
