@@ -5,7 +5,7 @@ package com.study.test;
 
 /**
  * @author WangY
- * @Date 2017 2017Äê1ÔÂ8ÈÕ
+ * @Date 2017 
  */
 
 class Value {

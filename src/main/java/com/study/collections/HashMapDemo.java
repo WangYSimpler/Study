@@ -15,17 +15,14 @@ class Demo
 	
 	public String toString()
 	{
-		return "姓名:"+this.name+", 年龄:"+this.age;
+		return "锟斤拷锟斤拷:"+this.name+", 锟斤拷锟斤拷:"+this.age;
 	}
 }
 
 public class HashMapDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-	HashMap hMap = new HashMap<>();
-	hMap.put(new Demo("张三",23),"张三");
-	System.out.println(hMap.get(hMap.get(new Demo("张三", 23))));
+	
 	}
 
 }
