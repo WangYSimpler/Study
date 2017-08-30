@@ -1,20 +1,21 @@
 package com.simple.propertiesDemo;
 
-import java.util.Iterator;
+/**
+ * import java.util.Iterator;
 import java.util.Properties;
-import java.util.Set;
+import java.util.Set;*/
 
 public class PropertiesDemo {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	/*public static void main(String[] args) {
+		
 		Properties captials = new Properties();
 		
 		captials.put("中国", "北京");
 		captials.put("日本", "东京");
 		captials.put("美国", "华盛顿");
 		
-		Set states;
+		Set states =null;
 		states = captials.keySet();
 		String str;		
 		Iterator itr= states.iterator();
@@ -28,9 +29,6 @@ public class PropertiesDemo {
 		
 		str=captials.getProperty("法国","没有发现");
 		System.out.println("法国的首都 "+str+". ");
-
-		
-		
-	}
+	}*/
 
 }

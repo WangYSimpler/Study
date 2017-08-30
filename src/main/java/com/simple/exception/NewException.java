@@ -9,8 +9,8 @@ public class NewException extends Exception {
 
 	private static final long serialVersionUID = 1L;
 	public NewException(Double r){
-		System.out.println("发生异常:圆的半径不能小于20");
-		System.out.println("圆的半径为：" + r);
+		System.err.println("发生异常:圆的半径不能小于20");
+		System.err.println("圆的半径为：" + r);
 	}
 	 
 	public static void showArea(double r) throws NewException{
