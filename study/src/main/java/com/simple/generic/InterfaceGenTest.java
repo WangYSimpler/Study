@@ -19,7 +19,8 @@ class Latte extends Coffee{}
   
 class CoffeeGenerator implements Generator<Coffee>{ //T为Coffee  
     private static Random rand = new Random(47);  
-    private Class[] types = {Latte.class, Mocha.class, Cappuccino.class, Breve.class};  
+    @SuppressWarnings("rawtypes")
+	private Class[] types = {Latte.class, Mocha.class, Cappuccino.class, Breve.class};  
     public Coffee next(){ //T为Coffee  
         try {  
             return (Coffee)  

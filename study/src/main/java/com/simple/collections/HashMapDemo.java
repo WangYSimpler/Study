@@ -1,28 +1,24 @@
 package com.simple.collections;
 
-import java.util.HashMap;
-
-class Demo
-{
+class Demo {
 	private String name;
 	private int age;
-	
-	Demo(String name,int age)
-	{
-		this.name= name;
-		this.age= age;
+
+	Demo(String name, int age) {
+		this.name = name;
+		this.age = age;
 	}
 	
-	public String toString()
-	{
-		return "����:"+this.name+", ����:"+this.age;
+	String toStr(){
+		return name + ":" + age;
 	}
+
 }
 
 public class HashMapDemo {
 
 	public static void main(String[] args) {
-	
+
 	}
 
 }

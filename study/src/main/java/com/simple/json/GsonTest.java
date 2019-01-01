@@ -1,4 +1,4 @@
-package com.simple.util.json;
+package com.simple.json;
 
 import com.google.gson.Gson;
 
@@ -20,22 +20,26 @@ public class GsonTest {
 		System.out.println(json);
 
 		// Deserialization
+		@SuppressWarnings("unused")
 		int one = gson.fromJson("1", int.class);
+		@SuppressWarnings("unused")
 		Integer oneInteger = gson.fromJson("1", Integer.class);
+		@SuppressWarnings("unused")
 		Long oneLong = gson.fromJson("1", Long.class);
+		@SuppressWarnings("unused")
 		Boolean falseBoolean = gson.fromJson("false", Boolean.class);
+		@SuppressWarnings("unused")
 		String str = gson.fromJson("\"abc\"", String.class);
+		@SuppressWarnings("unused")
 		String[] anotherStr = gson.fromJson("[\"abc\"]", String[].class);
 	}
 
 	class GsonObjecTest {
 		private int value1 = 1;
 		private String value2 = "abc";
+		@SuppressWarnings("unused")
 		private transient int value3 = 3;
-
-		GsonObjecTest() {
-			// no-args constructor
-		}
+		
 	}
 
 	/**

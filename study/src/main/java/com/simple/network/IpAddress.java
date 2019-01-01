@@ -1,4 +1,4 @@
-package com.simple.ip;
+package com.simple.network;
 
 import java.net.InetAddress;
 import java.net.UnknownHostException;
