@@ -1,5 +1,5 @@
 package com.study.anno;
-///×Ô¶¨Òå×¢½â
+///è‡ªå®šä¹‰æ³¨è§£
 public  @interface MyAnnotation {
 
 	public String key() default "2";

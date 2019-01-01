@@ -114,8 +114,6 @@ public class ConnectSerivce {
 		 * while (querySet.next()) { System.out.println("name: " +
 		 * querySet.getString("module_no")); }
 		 */
-		
-	
 		//System.out.println(mapResult.get("GC"));
 		return queryModuleSet;
 	}

@@ -4,7 +4,7 @@ package com.study.anno;
 public class AnnoDemoTest1 extends AnnDemo {
 
 	public String say() {
-		return "Ñ§ÉúÔÚËµ»°";
+		return "å­¦ç”Ÿåœ¨è¯´è¯";
 		
 	}
 	public static void main(String[] args) {
@@ -17,6 +17,6 @@ public class AnnoDemoTest1 extends AnnDemo {
 {
 	public String say()
 	{
-		return "ÈËÔÚËµ»°";
+		return "äººåœ¨è¯´è¯";
 	}
 }

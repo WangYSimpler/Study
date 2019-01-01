@@ -14,8 +14,7 @@ public class PropertiesDemo {
 		captials.put("日本", "东京");
 		captials.put("美国", "华盛顿");
 		
-		Set states;
-		states = captials.keySet();
+		Set states = captials.keySet();
 		String str;		
 		Iterator itr= states.iterator();
 		while (itr.hasNext()) {

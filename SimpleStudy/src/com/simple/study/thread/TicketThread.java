@@ -7,7 +7,7 @@ package com.simple.study.thread;
 
 class MyTicket implements  Runnable{
 
-    private int ticket  = 100;
+    private int ticket  = 20;
 
     public synchronized  boolean saleTickets(){
         if (0 <= ticket ){
