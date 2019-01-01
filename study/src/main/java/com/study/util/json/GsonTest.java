@@ -1,7 +1,5 @@
 package com.study.util.json;
 
-import org.eclipse.jdt.internal.compiler.ast.ThisReference;
-
 import com.google.gson.Gson;
 
 public class GsonTest {

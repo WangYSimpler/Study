@@ -1,6 +1,5 @@
 package com.study.util.json;
 
-import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 
 public class GsonJsonObjectTest {
