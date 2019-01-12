@@ -1,10 +1,10 @@
-package com.simple.study.thread;
+package com.simple.thread;
+
+
 
 /**
- * Created by Administrator on 2019/1/1.
- */
-
-
+ *  卖票程序
+*/
 class MyTicket implements  Runnable{
 
     private int ticket  = 20;
