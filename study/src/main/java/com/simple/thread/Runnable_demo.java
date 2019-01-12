@@ -2,11 +2,10 @@ package com.simple.thread;
 
 public class Runnable_demo implements Runnable {
 
-	private int ticket = 10;
+	private int ticket = 100;
 
 	public void run() {
-		for (int i = 0; i < 20; i++) {
-			if (this.ticket > 0) {
+		while(this.ticket > 0) {
 				// 休眠1s秒中，为了使效果更明显，否则可能出不了效果
 				try {
 					Thread.sleep(1000);
@@ -19,7 +18,7 @@ public class Runnable_demo implements Runnable {
 			}
 
 		}
-	}
+	
 
 	public synchronized void sale(){
 		if (this.ticket>0) {
