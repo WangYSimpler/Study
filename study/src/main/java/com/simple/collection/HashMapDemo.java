@@ -1,4 +1,4 @@
-package com.simple.collections;
+package com.simple.collection;
 
 class Demo {
 	private String name;

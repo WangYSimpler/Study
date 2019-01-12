@@ -12,10 +12,10 @@ class Value {
 	public int i = 15;
 }
 
-public class Test2 {
+public class Test {
 
 	public static void main(String argv[]) {
-		Test2 t = new Test2();
+		Test t = new Test();
 		t.first();
 	}
 
