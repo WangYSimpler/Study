@@ -1,4 +1,10 @@
 package com.simple.classExtend;
+
+/**
+ * 测试类的继承
+ * @author Administrator
+ *
+ */
  
 class animal
 {
@@ -10,6 +16,7 @@ class birds extends animal
 {
 	String wings;
 }
+
 public class TestClassExtend {
 
 	public static void main(String[] args) {

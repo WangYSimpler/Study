@@ -1,5 +1,11 @@
 package com.simple.thread;
 
+
+/***
+ * 多线程 卖票例子
+ * @author Administrator
+ *
+ */
 public class Runnable_demo implements Runnable {
 
 	private int ticket = 100;

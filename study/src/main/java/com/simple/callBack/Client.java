@@ -9,7 +9,6 @@ public class Client implements MyCallInterface {
 	public static void main(String[] args) {
 		Caller caller = new Caller();
 		caller.setCallFunc(new Client());
-	
 		caller.call();
 		
 	}
