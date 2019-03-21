@@ -111,9 +111,9 @@ public class WriterFile {
 
 	public static void main(String[] args) {
 		// 创建目录
-		String dirName = "e:/work/temp.txt";
+		String dirName = "e:/temp.txt";
 		
-		String fileName = "D:" + File.separator + "Hello.txt";
+		String fileName = "e:" + File.separator + "Hello.txt";
 		
 		File f = new File(fileName);
 		WriterFile wf = new WriterFile();
@@ -122,6 +122,8 @@ public class WriterFile {
 		String fileContent = new ReaderFiles().readerFile(f);
 		
 		wf.writeFile(dirName, fileContent);
+		
+		System.out.println("写文件 ");
 		
 		// 创建临时文件
 

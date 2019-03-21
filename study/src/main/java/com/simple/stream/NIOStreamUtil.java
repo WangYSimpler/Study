@@ -1,5 +1,5 @@
 package com.simple.stream;
 
-public class NIOUtil {
+public class NIOStreamUtil {
 
 }
