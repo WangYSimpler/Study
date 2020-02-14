@@ -1,5 +1,9 @@
 package com.simple.json.fastJson;
 
+
+import com.alibaba.fastjson.JSON;
+import com.google.gson.Gson;
+
 public class User {
 
 	
@@ -51,16 +55,16 @@ public void setAge(int age) {
 	
 	public static void main(String[] args) {
 		
-/*//		Gson gson = new Gson();
-//        String res = gson.toJson(new User().init());
-//        System.out.println(res);
-//        
-//        res = JSON.toJSONString(new User().init());
-//        System.out.println(res);
-//        ;
-//        
-//        System.out.println( JSON.toJSON(new User().init()));
-*/    }
+		Gson gson = new Gson();
+        String res = gson.toJson(new User().init());
+        System.out.println(res);
+        
+        res = JSON.toJSONString(new User().init());
+        System.out.println(res);
+        ;
+        
+        System.out.println( JSON.toJSON(new User().init()));
+    }
     
     public User init() {
         

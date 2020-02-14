@@ -5,7 +5,7 @@ package com.simple.test;
 
 /**
  * @author WangY
- * @Date 2017 2017年1月8日
+ * @Date 2017 2017��1��8��
  */
 
 class Value {
