@@ -9,6 +9,8 @@ public class Check {
 	}
 	
 	public static void main(String argv[]) {
+		
+		@SuppressWarnings("unused")
 		Check checkDemo = new Check();
 		
 	}

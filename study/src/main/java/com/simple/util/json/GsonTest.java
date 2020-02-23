@@ -1,5 +1,7 @@
 package com.simple.util.json;
 
+import java.lang.reflect.TypeVariable;
+
 import com.google.gson.Gson;
 
 public class GsonTest {
@@ -21,6 +23,7 @@ public class GsonTest {
 
 		// Deserialization
 		int one = gson.fromJson("1", int.class);
+		System.out.println(one);
 		Integer oneInteger = gson.fromJson("1", Integer.class);
 		Long oneLong = gson.fromJson("1", Long.class);
 		Boolean falseBoolean = gson.fromJson("false", Boolean.class);
