@@ -1,4 +1,4 @@
-package com.simple.activemq;
+package com.simple.mq.activemq;
 
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;

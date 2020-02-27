@@ -51,6 +51,21 @@ public class DateUtil {
 
 	}
 
+	//
+	public static String retFormatNowDate() {
+		
+		return formatLongDate(System.currentTimeMillis(), "yyyy-MM-dd HH:mm:ss");
+	}
+
+	public static String formatLongDate(Long longTime,String dateFormatStr) {
+		
+		  Date nowTime = new Date(longTime);
+		  SimpleDateFormat sdFormatter = new SimpleDateFormat(dateFormatStr);
+		  String retStrFormatNowDate = sdFormatter.format(nowTime);
+
+		  return retStrFormatNowDate;
+		}
+ 
 	
 	
 	

@@ -1,7 +1,5 @@
 package com.simple.util.json;
 
-import java.lang.reflect.TypeVariable;
-
 import com.google.gson.Gson;
 
 public class GsonTest {

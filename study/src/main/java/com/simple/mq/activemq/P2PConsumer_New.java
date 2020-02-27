@@ -1,4 +1,4 @@
-package com.simple.activemq;
+package com.simple.mq.activemq;
 
 import javax.jms.Connection;
 import javax.jms.ConnectionFactory;
@@ -10,11 +10,11 @@ import javax.jms.TextMessage;
 
 import org.apache.activemq.ActiveMQConnectionFactory;
 
-public class P2PConsumer {
+public class P2PConsumer_New {
 	
-	public static void main(String[] args) throws JMSException, InterruptedException {
+	public static void main(String[] args) throws JMSException {
 		
-		System.out.println("消费者类 XXX");
+		System.out.println("消费者类 new XXX");
         ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(ActiveMQConnectionFactory.DEFAULT_USER,
                 ActiveMQConnectionFactory.DEFAULT_PASSWORD,"tcp://127.0.0.1:61616");
         Connection connection = connectionFactory.createConnection();
@@ -27,7 +27,6 @@ public class P2PConsumer {
             if (message==null){
                 break;
             }
-            Thread.sleep(2000);
             System.out.println(message.getText());
         }
         if(connection!=null){

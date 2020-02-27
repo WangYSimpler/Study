@@ -1,4 +1,4 @@
-package com.simple.activemq;
+package com.simple.mq.activemq;
 
 import java.util.Random;
 
@@ -35,7 +35,7 @@ public class MultipleProducer implements Runnable{
 
     public void run() {
     	
-    	System.out.println("multipleProucer 用户名 ： " + USERNAME +" ， 密码： "+ PASSWORD + " ,"+ " 地址 "+ URL);
+    	System.out.println("multipleProducer 用户名 ： " + USERNAME +" ， 密码： "+ PASSWORD + " ,"+ " 地址 "+ URL);
         try {
             factory = new ActiveMQConnectionFactory(USERNAME, PASSWORD, URL);
             connection = factory.createConnection();
