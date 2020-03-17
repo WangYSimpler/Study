@@ -4,8 +4,6 @@ public class Runnable_demo implements Runnable {
 
 	private int ticket = 10;
 
-	
-
 	@Override
 	public void run() {
 		for (int i = 0; i < 20; i++) {
