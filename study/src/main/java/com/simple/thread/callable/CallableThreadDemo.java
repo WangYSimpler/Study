@@ -1,9 +1,10 @@
-package com.simple.thread;
+package com.simple.thread.callable;
 
 
 import java.util.concurrent.Callable;
 import java.util.concurrent.ExecutionException;
 import java.util.concurrent.FutureTask;
+
 
 class MyCallableThread implements Callable<String>{
 
@@ -21,8 +22,8 @@ public class CallableThreadDemo {
 	
 	public static void  main(String args[]) throws InterruptedException, ExecutionException {
 		FutureTask<String> futureTask = new FutureTask<String>(new MyCallableThread());
-		new Thread(futureTask).start();
-		new Thread(futureTask).start();
+		new Thread(futureTask,"线程1").start();
+		new Thread(futureTask,"线程2").start();
 		System.out.println("结束 " + futureTask.get());
 	}
 
