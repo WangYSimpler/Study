@@ -8,10 +8,9 @@ public class GenericMethodTest {
 		}
 		System.out.println();
 	}
+	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Integer[] num = {1,2,3,4};
 		printArray(num);
 	}
-
 }
